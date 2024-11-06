@@ -233,7 +233,7 @@ mode = st.sidebar.radio("Wat wil je zien?", options=["Nieuwe app", "Gemaakte aan
 if mode == "Gemaakte aanpassingen":
     # Veranderingen tabbladen aanmaken
     st.write(''' Welk tabblad wil je zien?''')
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["layout", "Vliegvelden", "Vlucht data", "Vertragingen"])
+    tab1, tab2, tab3, tab4 = st.tabs(["layout", "Vliegvelden", "Vlucht data", "Vertragingen"])
 
     with tab1: 
         st.subheader('''Layout aanpassingen''')
