@@ -249,7 +249,7 @@ if mode == "Gemaakte aanpassingen":
     with tab3:
         st.subheader('''Vlucht data aanpassingen''')
         st.divider() 
-        st.image("Verandering 2.jpeg", output_format="JPEG")
+        st.image("verandering 2.jpeg", output_format="JPEG")
 
     with tab4:
         st.subheader('''Vertragingen aanpassingen''')
